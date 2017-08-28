@@ -25,6 +25,6 @@ model = RandomForestRegressor(n_estimators = 100, max_features = 'sqrt')
 model.fit(x_train, y_train.values.ravel())
 ans=model.predict(x_test)
 
-nytest = y_test.as_matrix()
+normal_ytest = y_test.as_matrix()
 
-result_r2 = r2_score(nytest, ans)
+result_r2 = r2_score(normal_ytest, ans)

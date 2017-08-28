@@ -25,6 +25,7 @@ dfy = df[['PRICE']].copy()
 
 x_train, x_test, y_train, y_test = train_test_split(dfx,dfy,test_size = 0.3)
 
+#parameters selected using GridSearchCV
 model = XGBRegressor(learning_rate =0.1,
 	seed=0,
 	subsample=0.7,
@@ -36,6 +37,6 @@ model = XGBRegressor(learning_rate =0.1,
 model.fit(x_train, y_train.values.ravel())
 ans=model.predict(x_test)
 
-nytest = y_test.as_matrix()
+normal_ytest = y_test.as_matrix()
 
-result_r2 = r2_score(nytest, ans)
+result_r2 = r2_score(normal_ytest, ans)

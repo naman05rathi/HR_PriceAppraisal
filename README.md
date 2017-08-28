@@ -37,7 +37,7 @@ Price is predicted using features like BHK, Latitude, Longitude, Area, Years Old
 ## Results
 ### Regression Models Result
 
-Model  | Median  | Standard Deviation
+Model  | Mean  | Standard Deviation
 ------------- | ------------- | -------------
 Ridge  | 0.5663  | 0.0246
 Bayesian Ridge  | 0.5734  | 0.0213

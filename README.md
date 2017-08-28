@@ -45,7 +45,7 @@ kNN  | 0.7077  | 0.027
 Decision Tree  | 0.63  | 0.0199
 Neural Net (MLP)  | 0.6556  | 0.0321
 Random Forest  | 0.7726  | 0.0246
-XGBoost  | 0.7209  | 0.0242
+XGBoost  | 0.7386  | 0.05217
 
 
 ### GridSearchCV Result
